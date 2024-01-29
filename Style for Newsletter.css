@@ -1,0 +1,76 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: #F3F8FE;
+    font-family: "Poppins", sans-serif;
+}
+
+form {
+    background-color: white;
+    display: block;
+    max-width: 600px;
+    max-height: 400px;
+    box-shadow: 10px 10px 5px #E6EFFA;
+    /* margin: 0px 10px; */
+    padding: 35px 15px;
+    margin:10% 20%;
+}
+
+input[type="text"], input[type="email"], input[type="submit"] {
+    width: 100%;
+    padding: 15px;
+    margin: 10px 0;
+    display: inline-block;
+    border: 1px solid #cccccc9a;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+.input_group {
+    margin: 10px;
+}
+
+.Selector {
+    margin: 10px;
+}
+
+.btn {
+    margin: 10px;
+}
+
+h2 {
+    font-size: xx-large;
+}
+
+input[type="submit"] {
+    background-color: #2C2D2D;
+    color: white;
+}
+
+input[type="submit"]:hover {
+    background-color: grey;
+}
+
+input[type="text"]:focus {
+    border: 2px solid grey;
+}
+
+input[type="email"]:focus {
+    border: 2px solid grey;
+}
+
+input {
+    outline: none;
+}
+
+svg {
+    color: #2C2D2D;
+}
+
+h2 {
+    color: #2C2D2D;
+}
